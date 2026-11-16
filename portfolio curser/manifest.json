@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Portfolio Cursor — Swarm Rebuild",
+  "version": "1.1.0",
+  "description": "Wipe any webpage to a blank canvas and watch a swarm of multiplayer cursors rebuild it live with typing, drawing, sound, and tour mode.",
+  "action": {
+    "default_title": "Portfolio Cursor Rebuild (Alt+Shift+S)",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+S",
+        "mac": "Alt+Shift+S"
+      },
+      "description": "Rebuild this page with the multiplayer cursor swarm"
+    }
+  }
+}

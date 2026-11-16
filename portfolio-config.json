@@ -1,0 +1,149 @@
+{
+  "referenceWebsite": "https://touquirakhtar.com/",
+  "websiteUrl": "https://sowmithran-balu.github.io/",
+  "identity": {
+    "fullName": "Sowmithran B",
+    "displayName": "Mithran",
+    "profession": "Full-Stack Developer",
+    "roleLine2": "AI, ERP & Healthtech Builder",
+    "location": "Coimbatore, India",
+    "availability": "Open to internships and collaborations",
+    "headline": "I build full-stack products powered by AI.",
+    "intro": "Third-year CSBS undergraduate who builds full-stack platforms, from multi-tenant ERP to real-time ECG tools. Solved 1000+ problems across coding platforms.",
+    "about": "I'm a Computer Science and Business Systems student at KIT, Coimbatore, building full-stack products with React, Spring Boot, Node.js and FastAPI. My work spans ERP systems, medical telemetry and e-commerce, and I add generative AI and automation where it removes manual effort. During my internship at Learnlogicify Technologies, I built an AI-powered outreach pipeline that cut manual work by 60%. I also compete in competitive programming, with 500+ LeetCode problems and 100+ contests.",
+    "portrait": "./assets/profile.png",
+    "resume": "./assets/resume.pdf",
+    "favicon": "./assets/favicon.ico"
+  },
+  "contact": {
+    "email": "Sowmithranbalu@gmail.com",
+    "phone": "+91 6383329211",
+    "whatsapp": "",
+    "instagram": "",
+    "youtube": "",
+    "linkedin": "https://www.linkedin.com/in/sowmithranb",
+    "github": "https://github.com/sowmithran-balu",
+    "behance": "",
+    "dribbble": "",
+    "otherLinks": [
+      { "label": "LeetCode", "url": "https://leetcode.com/u/Mithran09/" },
+      { "label": "CodeChef", "url": "https://www.codechef.com/users/kit28csbs052" }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "id": "nexos-enterprise",
+        "title": "NexOS Enterprise",
+        "category": "Full-Stack",
+        "year": "2026",
+        "image": "./assets/nexos-preview.png",
+        "summary": "Cloud-native, multi-tenant ERP unifying accounting, inventory, manufacturing and payroll.",
+        "description": "Developed a multi-tenant ERP platform unifying financial accounting, multi-location inventory, manufacturing and payroll into a real-time digital core. Integrated a responsive React 19 frontend with a modular Spring Boot backend, enforcing thread-bound row-level tenant isolation and a 36-permission RBAC matrix.",
+        "role": "Full-Stack Architect & Lead Developer",
+        "tools": ["Java", "Spring Boot", "React 19", "TypeScript", "PostgreSQL", "REST APIs", "Docker"],
+        "sourceUrl": "https://github.com/sowmithran-balu",
+        "liveUrl": "",
+        "featured": true
+      },
+      {
+        "id": "pmcardio-advanced",
+        "title": "PMcardio Advanced",
+        "category": "Healthtech",
+        "year": "2026",
+        "image": "./assets/pmcardio-preview.png",
+        "summary": "Real-time 12-lead ECG visualization and analysis platform for physicians.",
+        "description": "Built a responsive full-stack medical telemetry platform that lets physicians visualize, calibrate and analyze 12-lead ECG data with persistent SQLite storage. Engineered a custom 60 FPS HTML5 Canvas rendering engine with CRT phosphor sweep simulation, dual-axis caliper tools (DX in ms, DY in mV) and gain/lead projection adjustments.",
+        "role": "Telemetry & Canvas Engine Developer",
+        "tools": ["JavaScript", "Node.js", "Express", "SQLite", "HTML5 Canvas", "REST APIs"],
+        "sourceUrl": "https://github.com/sowmithran-balu",
+        "liveUrl": "",
+        "featured": true
+      },
+      {
+        "id": "edumanage-portal",
+        "title": "EduManage Portal",
+        "category": "Full-Stack / Next.js & AI",
+        "year": "2026",
+        "image": "./assets/edumanage-preview.png",
+        "summary": "Enterprise LMS & ERP portal with Gemini AI learning insights, rubric evaluation co-pilot & in-browser coding lab.",
+        "description": "Architected an enterprise LMS & ERP portal leveraging Next.js 16, React 19, and Prisma ORM, serving 3 role personas (Student, Teacher, Admin) across 16 relational data entities. Engineered an academic health monitoring engine utilizing Google Gemini AI and linear regression trajectory algorithms to predict at-risk students based on attendance anomalies and assignment velocities. Developed an automated rubric-grading assistant providing contextual grading drafts and actionable feedback for educators, reducing manual evaluation time. Built an interactive code execution sandbox supporting programming assignments, starter code templates, and automated test-case verification. Enforced a clean layered architecture (Controller-Service-Repository) with Zod schema validations, JWT cookie authentication, bcrypt password hashing, and Admin 2FA verification.",
+        "role": "Full-Stack & AI Architect",
+        "tools": ["Next.js 16", "React 19", "Prisma ORM", "TypeScript", "Google Gemini AI", "Tailwind CSS", "Zod", "JWT", "REST APIs"],
+        "sourceUrl": "https://github.com/sowmithran-balu",
+        "liveUrl": "",
+        "featured": true
+      }
+    ],
+    "featuredProjectIds": ["nexos-enterprise", "pmcardio-advanced", "edumanage-portal"],
+    "categories": ["All", "Full-Stack", "Healthtech", "EdTech / AI"],
+    "clientLogos": [],
+    "skills": {
+      "languages": ["Java", "JavaScript", "SQL"],
+      "web": ["React.js", "Node.js", "Express.js", "Next.js", "HTML", "CSS"],
+      "aiAndCloud": ["LLMs", "Prompt Engineering", "AI Agents", "OpenCV", "YOLOv8", "CNN", "AWS", "Azure"],
+      "frameworksAndTools": ["FastAPI", "Git", "Postman", "Docker"],
+      "fundamentals": ["Data Structures & Algorithms", "OOP"]
+    },
+    "experience": [
+      {
+        "role": "Full Stack Development Intern",
+        "org": "Learnlogicify Technologies",
+        "period": "Dec 2025",
+        "points": [
+          "Built an end-to-end AI-powered email outreach pipeline on Make.com, integrating Perplexity AI and Google Gemini with QuickMail and Google Sheets to automate lead research, email generation and outreach sequencing.",
+          "Reduced manual work by 60% by automating the prospect communication lifecycle with generative AI, APIs and no-code automation."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech Computer Science and Business Systems",
+        "institution": "Kalaignar Karunanidhi Institute of Technology, Coimbatore",
+        "period": "2024–2028",
+        "cgpa": "7.66 / 10"
+      }
+    ],
+    "awards": [],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "MongoDB Certifications (9)",
+      "Infosys Springboard: Java 11 Essentials",
+      "Python Essentials 1 & 2",
+      "Network Essentials"
+    ],
+    "metrics": [
+      { "stat": "500+", "label": "LeetCode Solved", "sub": "Max rating 1594 • Top 25.14% globally" },
+      { "stat": "1000+", "label": "Problems Solved", "sub": "Consistent multi-platform practice" },
+      { "stat": "100+", "label": "Contests Attended", "sub": "300+ Active coding days logged" },
+      { "stat": "1310", "label": "CodeChef Rating", "sub": "2 Star Division ranking" }
+    ]
+  },
+  "appearance": {
+    "style": "professional obsidian and crimson tech aesthetic, luxury dark mode, cyber-minimalism",
+    "theme": "dark",
+    "background": "#050508",
+    "text": "#f1f3f7",
+    "accent": "#e32b3c",
+    "accentLight": "#ff334b",
+    "accentDark": "#991b1b",
+    "muted": "#8e8b94",
+    "displayFont": "Space Grotesk",
+    "brandFont": "Syne",
+    "bodyFont": "Plus Jakarta Sans",
+    "codeFont": "JetBrains Mono",
+    "animationIntensity": "subtle, professional, 60fps",
+    "language": "English"
+  },
+  "preferences": {
+    "showAwards": false,
+    "showEducation": true,
+    "showExperience": true,
+    "showBeforeAfter": false,
+    "showClientLogos": false,
+    "showTestimonials": false,
+    "showContactForm": true,
+    "showDownloadResume": true,
+    "showProjectArchive": true
+  }
+}

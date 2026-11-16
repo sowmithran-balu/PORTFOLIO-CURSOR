@@ -1,0 +1,13 @@
+{
+  "name": "sowmithran-portfolio",
+  "version": "1.0.0",
+  "description": "Full-Stack Developer Portfolio for Sowmithran B (Mithran)",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": ["portfolio", "developer", "react", "spring-boot", "full-stack"],
+  "author": "Sowmithran B <Sowmithranbalu@gmail.com>",
+  "license": "MIT"
+}
+
